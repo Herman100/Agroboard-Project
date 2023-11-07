@@ -201,6 +201,7 @@ button {
   position: absolute;
   z-index: 99;
   top: 480px;
+  left: 465px;
 }
 .linking-image img {
   width: 200px;
