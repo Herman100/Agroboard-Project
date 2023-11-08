@@ -1,3 +1,5 @@
+/* THIS IS A THE GENERAL CSS BEGINNING*/
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -65,7 +67,7 @@ a {
 }
 
 a:hover {
-  color: #00c684;
+  color: aqua;
   text-decoration: none;
   cursor: pointer;
 }
@@ -137,9 +139,8 @@ button {
   margin-left: 32px;
 }
 
-/* THIS IS A THE HERO SECTION CSS ENDING*/
-
 /* THIS IS A THE PRODUCTS SECTION CSS BEGINNING*/
+
 .products {
   background-color: #fff;
   background-size: cover;
@@ -210,6 +211,7 @@ button {
 
 /* THIS IS A THE PRODUCTS SECTION CSS ENDING*/
 
+/* THIS IS A THE TESTIMONIAL SECTION CSS BEGINNING*/
 .testimonial {
   background-color: #177c2c;
   height: 700px;
@@ -263,7 +265,7 @@ button {
   width: 420px;
 }
 
-/* NEWSLETTER SECTION CSS */
+/* THIS IS A THE NEWSLETTER SECTION CSS BEGINNING*/
 
 .newsletter {
   background-color: #fff;
@@ -339,4 +341,74 @@ textarea {
   margin-right: 16px;
   width: 220px;
   height: 42px;
+}
+
+/* THIS IS A THE FOOTER SECTION CSS BEGINNING*/
+
+footer {
+  height: 500px;
+  background-color: #127727;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+footer .links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 148px;
+}
+
+.links .useful-links,
+.links .get-help {
+  margin-right: 64px;
+}
+
+.links .logo {
+  margin-right: 64px;
+  margin-top: -8px;
+}
+
+.links h3 {
+  padding-bottom: 24px;
+}
+
+.links p {
+  font-size: 14px;
+  padding-bottom: 10px;
+  color: #fff;
+  opacity: 0.9;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.links .useful-links p:hover {
+  color: aqua;
+}
+
+footer hr {
+  width: 820px;
+  height: 1px;
+  background-color: #ffffff4a;
+  border: none;
+}
+
+footer .copyright-terms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright p,
+.copyright a,
+.terms p {
+  font-size: 12px;
+
+  margin-top: 36px;
+  opacity: 0.7;
+}
+
+.copyright p {
+  margin-right: 375px;
 }
